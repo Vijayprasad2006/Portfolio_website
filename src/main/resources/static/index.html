@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Spring Boot + Bootstrap</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-body">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">My Site</a>
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler" data-bs-target="#navbarSupportedContent"
+                data-bs-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Left Menu -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="skills.html">Skills</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                       href="#" role="button">
+                        About
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="academic.html">Academic Details</a></li>
+                        <li><a class="dropdown-item" href="#">Personal Details</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">YouTube Channel</a></li>
+                        <li><a class="dropdown-item" href="#">LeetCode & GFG</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- Search -->
+            <div class="d-flex">
+                <button class="btn btn-outline-success" onclick="window.location.href='login.html'">LogOut</button>
+
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Left: Text -->
+            <div class="col-lg-6 px-0">
+                <h1 class="display-4 fst-italic">Hello, Welcome To My Website — Myself Vijay</h1>
+                <p class="lead my-3">
+                    I’m Vijay — I build stuff with Java, Spring Boot, HTML, CSS, and JavaScript,
+                    and call it “web development.” I teach code on YouTube, explore AI like it’s a new hobby,
+                    and run Linux commands mostly to feel like a hacker in a movie.
+                </p>
+            </div>
+
+            <!-- Right: Image -->
+            <div class="col-lg-6 text-center">
+                <img alt="Vijay" class="img-fluid rounded" src="mypic1.jpg" style="max-height: 300px;">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Featured Posts -->
+<div class="row mb-2"><!-- Featured Posts -->
+    <div class="row mb-2">
+        <!-- Post 1 -->
+        <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-primary-emphasis">AVENGERS ASSEMBLE</strong>
+                    <h3 class="mb-0">Starkovative</h3>
+                    <div class="mb-1 text-body-secondary">Marvel Fan</div>
+                    <p class="card-text mb-auto">
+                        Iron Man is hands down my favorite because the guy turns every mistake into a masterclass in
+                        genius. He blows stuff up, learns from it, and somehow comes up with tech that makes the rest of
+                        us feel like we’re still in kindergarten. His intelligence isn’t just smart—it’s ridiculously
+                        cool, like building a flying suit in your garage while cracking sarcastic jokes. Honestly, he
+                        inspires me because he proves that you can fail spectacularly, look awesome doing it, and still
+                        save the world before breakfast." 😎💥
+                    </p>
+                    <a class="icon-link gap-1 icon-link-hover stretched-link" href="#">
+                        <svg aria-hidden="true" class="bi">
+                            <use xlink:href="#chevron-right"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <img alt="Thumbnail"
+                         class="img-fluid rounded"
+                         height="250"
+                         src="iron.jpeg"
+                         width="200">
+                </div>
+            </div>
+        </div>
+
+        <!-- Post 2 -->
+        <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-primary-emphasis">AVENGERS ASSEMBLE</strong>
+                    <h3 class="mb-0">Wandamazing</h3>
+                    <div class="mb-1 text-body-secondary">Marvel Fan</div>
+                    <p class="card-text mb-auto">
+                        Scarlet Witch is my favorite second-most powerful Avenger because the woman literally bends
+                        reality with her mind. She can make the impossible happen, manipulate chaos, and take down foes
+                        with a flick of her hands—all while looking effortlessly cool. Her powers aren’t just raw
+                        strength; they’re unpredictable, brilliant, and a little dangerous, which makes her absolutely
+                        fascinating. I love how she learns, adapts, and uses her abilities strategically, proving that
+                        true power isn’t just in brute force—it’s in intelligence, control, and a touch of flair.
+                    </p>
+                    <a class="icon-link gap-1 icon-link-hover stretched-link" href="#">
+                        <svg aria-hidden="true" class="bi">
+                            <use xlink:href="#chevron-right"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <img alt="Thumbnail"
+                         class="img-fluid rounded"
+                         height="250"
+                         src="wanda.jpg"
+                         width="200">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<!-- Footer -->
+<footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+        <div class="col-6 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+            </ul>
+        </div>
+
+        <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+            </ul>
+        </div>
+
+        <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

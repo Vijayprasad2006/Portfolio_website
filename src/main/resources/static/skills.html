@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Bootstrap demo</title>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+          integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" rel="stylesheet">
+</head>
+<body>
+
+<header data-bs-theme="dark">
+    <div class="collapse text-bg-dark" id="navbarHeader">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-7 py-4"><h4>SKills</h4>
+                    <p class="text-body-secondary">Add some information about the album below, the author, or any other
+                        background context. Make it a few sentences long so folks can pick up some informative tidbits.
+                        Then, link them off to some social networking sites or contact information.</p></div>
+                <div class="col-sm-4 offset-md-1 py-4"><h4>Contact</h4>
+                    <ul class="list-unstyled">
+                        <li><a class="text-white" href="#">Follow on X</a></li>
+                        <li><a class="text-white" href="#">Like on Facebook</a></li>
+                        <li><a class="text-white" href="#">Email me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#">
+            <svg aria-hidden="true" class="me-2" fill="none" height="20" stroke="currentColor"
+                 stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                <circle cx="12" cy="13" r="4"></circle>
+            </svg>
+            <strong>Album</strong> </a>
+            <button aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler"
+                    data-bs-target="#navbarHeader" data-bs-toggle="collapse" type="button"><span
+                    class="navbar-toggler-icon"></span></button>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto"><h1 class="fw-light">Welcome to my skills showcase!</h1>
+                <p class="lead text-body-secondary">These are my skills—proven, practiced, and occasionally impressive.
+                    I write code, make websites, and sometimes even fix bugs without crying.
+                    Scroll down to see what I can do (or at least attempt)!!!😄💻.</p>
+                <p><a class="btn btn-primary my-2" href="index.html">I don't want to see</a> <a
+                        class="btn btn-secondary my-2"
+                        href="#101">Let me See
+                </a></p></div>
+        </div>
+    </section>
+    <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <!-- Your card elements remain unchanged -->
+            </div>
+        </div>
+    </div>
+</main>
+<div class="album py-5 bg-body-tertiary">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="card shadow-sm" id="101">
+                    <img alt="My Skills Image" class="card-img-top" height="225" src="hcj.png"
+                         style="object-fit: cover; width: 100%;">
+                    <div class="card-body"><p class="card-text">I use HTML to build the structure of websites, giving
+                        every element its proper place. With CSS, I bring those websites to life with colors, layouts,
+                        and styles that actually look good. And with JavaScript, I make everything interactive and
+                        dynamic, adding a little magic so that pages aren’t just pretty—they respond, move, and
+                        sometimes even surprise you!</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button class="btn btn-sm btn-outline-secondary" type="button">View</button>
+                                <button class="btn btn-sm btn-outline-secondary" type="button">Edit</button>
+                            </div>
+                            <small class="text-body-secondary">9 mins</small></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img alt="My Skills Image" class="card-img-top" height="225" src="156.png"
+                         style="object-fit: cover; width: 100%;">
+                    <div class="card-body"><p class="card-text">I use Spring Boot to build powerful, fast, and reliable
+                        backend applications. It helps me connect databases, handle user requests, and make everything
+                        run smoothly without writing endless boilerplate code. With Spring Boot, I can turn complex
+                        ideas into working apps quickly, making backend development feel almost like magic.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button class="btn btn-sm btn-outline-secondary" type="button">View</button>
+                                <button class="btn btn-sm btn-outline-secondary" type="button">Edit</button>
+                            </div>
+                            <small class="text-body-secondary">9 mins</small></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img alt="My Skills Image" class="card-img-top" height="225" src="mysql.png"
+                         style="object-fit: cover; width: 100%;">
+                    <div class="card-body"><p class="card-text">I use SQL to manage and organize data, making sure
+                        everything is stored in the right place. With queries, joins, and filters, I can fetch exactly
+                        the information I need, turning messy data into something useful. SQL helps me make sense of
+                        databases, so my applications run smoothly and efficiently, even when handling tons of
+                        information.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button class="btn btn-sm btn-outline-secondary" type="button">View</button>
+                                <button class="btn btn-sm btn-outline-secondary" type="button">Edit</button>
+                            </div>
+                            <small class="text-body-secondary">9 mins</small></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img alt="My Skills Image" class="card-img-top" height="225" src="java89.png"
+                         style="object-fit: cover; width: 100%;">
+                    <div class="card-body"><p class="card-text">I use Java to build robust and powerful applications
+                        that can run almost anywhere. With its object-oriented approach, I can organize my code neatly,
+                        solve complex problems, and create programs that actually work. Java helps me turn ideas into
+                        real software, making development both challenging and fun</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button class="btn btn-sm btn-outline-secondary" type="button">View</button>
+                                <button class="btn btn-sm btn-outline-secondary" type="button">Edit</button>
+                            </div>
+                            <small class="text-body-secondary">9 mins</small></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img alt="My Skills Image" class="card-img-top" height="225" src="cc.jpeg"
+                         style="object-fit: cover; width: 100%;">
+                    <div class="card-body"><p class="card-text">I use Cloud Computing to run applications and store data
+                        over the internet, making everything fast, flexible, and scalable. It lets me manage resources,
+                        deploy apps, and keep everything running smoothly without worrying about physical servers. With
+                        cloud skills, I can build modern, reliable systems that work anywhere, anytime</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button class="btn btn-sm btn-outline-secondary" type="button">View</button>
+                                <button class="btn btn-sm btn-outline-secondary" type="button">Edit</button>
+                            </div>
+                            <small class="text-body-secondary">9 mins</small></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img alt="My Skills Image" class="card-img-top" height="225" src="bb.jpeg"
+                         style="object-fit: cover; width: 100%;">
+                    <div class="card-body"><p class="card-text">I use Bootstrap to make websites look good quickly and
+                        easily. With its ready-made components, grids, and responsive design, I can create pages that
+                        work on any device without starting from scratch. Bootstrap helps me turn simple layouts into
+                        professional-looking websites in no time</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button class="btn btn-sm btn-outline-secondary" type="button">View</button>
+                                <button class="btn btn-sm btn-outline-secondary" type="button">Edit</button>
+                            </div>
+                            <small class="text-body-secondary">9 mins</small></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img alt="My Skills Image" class="card-img-top" height="225" src="pp.jpeg"
+                         style="object-fit: cover; width: 100%;">
+                    <div class="card-body"><p class="card-text">I use Python to write clean and powerful code for all
+                        kinds of projects. From automating tasks to analyzing data, Python makes everything easier and
+                        faster. Its simplicity lets me focus on solving problems and building cool programs without
+                        getting lost in complicated syntax.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button class="btn btn-sm btn-outline-secondary" type="button">View</button>
+                                <button class="btn btn-sm btn-outline-secondary" type="button">Edit</button>
+                            </div>
+                            <small class="text-body-secondary">9 mins</small></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img alt="My Skills Image" class="card-img-top" height="225" src="ai.jpeg"
+                         style="object-fit: cover; width: 100%;">
+                    <div class="card-body"><p class="card-text">I use AI to make machines smarter and solve problems
+                        that were once only possible for humans. From analyzing data to making predictions, AI helps me
+                        create intelligent systems that learn and improve over time. With AI skills, I can build
+                        projects that feel like science fiction turning into reality.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button class="btn btn-sm btn-outline-secondary" type="button">View</button>
+                                <button class="btn btn-sm btn-outline-secondary" type="button">Edit</button>
+                            </div>
+                            <small class="text-body-secondary">9 mins</small></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img alt="My Skills Image" class="card-img-top" height="225" src="dsa.jpeg"
+                         style="object-fit: cover; width: 100%;">
+                    <div class="card-body"><p class="card-text">I use DSA to solve problems efficiently and write code
+                        that actually works under pressure. From arrays and linked lists to trees and graphs, DSA helps
+                        me organize data and find solutions faster. With these skills, I can tackle coding challenges
+                        like a pro and make my programs run smoothly.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button class="btn btn-sm btn-outline-secondary" type="button">View</button>
+                                <button class="btn btn-sm btn-outline-secondary" type="button">Edit</button>
+                            </div>
+                            <small class="text-body-secondary">9 mins</small></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="text-body-secondary py-5">
+    <div class="container"><p class="float-end mb-1"><a href="#">Back to top</a></p>
+        <p class="mb-1">Album example is © Bootstrap, but please download and customize it for yourself!</p>
+        <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a
+                href="/docs/5.3/getting-started/introduction">getting started guide</a>.</p></div>
+</footer>
+
+<script crossorigin="anonymous"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
