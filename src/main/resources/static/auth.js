@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8080/api/auth";
+const API_URL = "/api/auth";
 
 document.getElementById("loginBtn").addEventListener("click", async () => {
     const email = document.getElementById("email").value;
@@ -12,7 +12,7 @@ document.getElementById("loginBtn").addEventListener("click", async () => {
 
     if (response.ok) {
         alert("✅ Login successful!");
-        window.location.href = "http://localhost:8080";
+        window.location.href = "/";  // ✅ works both local & Railway
     } else {
         alert("❌ Invalid email or password");
     }

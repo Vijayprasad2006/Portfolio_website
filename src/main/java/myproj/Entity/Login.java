@@ -1,4 +1,4 @@
-package com.bootstrap.myproj.Entity;
+package myproj.Entity;
 
 import jakarta.persistence.*;
 

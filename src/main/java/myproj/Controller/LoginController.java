@@ -1,7 +1,7 @@
-package com.bootstrap.myproj.Controller;
+package myproj.Controller;
 
-import com.bootstrap.myproj.Entity.Login;
-import com.bootstrap.myproj.MyRepository.LoginRepository;
+import myproj.Entity.Login;
+import myproj.MyRepository.LoginRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

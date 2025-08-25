@@ -1,6 +1,6 @@
-package com.bootstrap.myproj.MyRepository;
+package myproj.MyRepository;
 
-import com.bootstrap.myproj.Entity.Login;
+import myproj.Entity.Login;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface LoginRepository extends JpaRepository<Login, Integer> {
